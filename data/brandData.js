@@ -1,49 +1,40 @@
-import radix from '../assets/images/brand/radix.png';
-import story from '../assets/images/brand/story.png';
-import myob from '../assets/images/brand/myob.png';
-import sutrahr from '../assets/images/brand/sutrahr.png';
-import sylexcoin from '../assets/images/brand/sylexcoin.png';
-import zazzalmedia from '../assets/images/brand/zazzalmedia.png';
-import radix2 from '../assets/images/brand/radix.png';
-import sutrahr2 from '../assets/images/brand/sutrahr.png';
-import myob2 from '../assets/images/brand/myob.png';
 
 const brands =[
     {
         id:1,
-        img:radix
+        img:'/assets/images/brand/radix.png'
     },
     {
         id:2,
-        img:story
+        img:'/assets/images/brand/story.png'
     },
     {
         id:1,
-        img:myob
+        img:'/assets/images/brand/myob.png'
     },
     {
         id:1,
-        img:sutrahr
+        img:'/assets/images/brand/sutrahr.png'
     },
     {
         id:1,
-        img:sylexcoin
+        img:'/assets/images/brand/sylexcoin.png'
     },
     {
         id:1,
-        img:radix2
+        img:'/assets/images/brand/radix.png'
     },
     {
         id:1,
-        img:zazzalmedia
+        img:'/assets/images/brand/zazzalmedia.png'
     },
     {
         id:1,
-        img:sutrahr2
+        img:'/assets/images/brand/sutrahr.png'
     },
     {
         id:1,
-        img:myob2
+        img:'/assets/images/brand/myob.png'
     },
 ]
 

@@ -2,7 +2,8 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { brands } from "../../data/brandData";
+import { brands } from "../../data/brandData"
+import Image from "next/image";
 
 const Brand = () => {
   const settings = {
@@ -50,10 +51,12 @@ const Brand = () => {
           {brands.map((partner) => (
             <div key={partner.id}>
               <div>
-                <img
+                <Image
                   className="grayscale hover:grayscale-0 w-[70px] lg:w-[100px] h-5 lg:h-14 object-contain mx-auto my-2"
                   src={partner.img}
                   alt=""
+                  width={150}
+                  height={50}
                 />
               </div>
             </div>

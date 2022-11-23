@@ -1,5 +1,6 @@
+import Image from "next/image";
 import { useEffect, useState } from "react";
-import checkbox from "../../assets/images/common/check-box.svg";
+// import checkbox from "../../assets/images/common/check-box.svg";
 import { locationData } from "../../data/locationData";
 
 const Location = () => {
@@ -53,10 +54,12 @@ const Location = () => {
                 {tabActive === id && (
                   <div>
                     <div className="mb-5 md:mb-12">
-                      <img
+                      <Image
                         className="w-full h-[178px] md:h-[250px] xl:h-[402px] object-contain animate__animated animate__fadeInRightBig"
                         src={img}
                         alt=""
+                        width={636}
+                        height={402}
                       />
                     </div>
                     <div className="flex justify-center items-center">
@@ -67,10 +70,13 @@ const Location = () => {
                               key={i}
                               className="flex items-center gap-2 animate__animated animate__fadeIn"
                             >
-                              <img
-                                src={checkbox}
+                              <Image
+                                // src={checkbox}
+                                src='/assets/images/common/check-box.svg'
                                 alt=""
                                 className="h-4 xl:h-6 w-4 xl:w-6"
+                                width={24}
+                                height={24}
                               />
                               <h6 className="font-poppins font-semibold text-primary text-sm xl:text-base leading-6 text-center">
                                 {item}
