@@ -1,5 +1,6 @@
 import CountUp from "react-countup";
 
+// import { countData } from "../../data/summaryData";
 import { countData } from "../../data/summaryData";
 
 const SummaryTwo = () => {

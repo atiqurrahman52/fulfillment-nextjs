@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { reviewsData } from "../../data/reviewsData";
 
 const Reviews = () => {
@@ -28,7 +29,7 @@ const Reviews = () => {
                   <p className={`text-sm ${id !== 2 && "indent-8"}`}>
                     {details}
                   </p>
-                  <img
+                  <Image
                     className={`absolute -top-5 md:-top-8 ${
                       id === 1 || id === 3
                         ? "-left-5 md:-left-8"
@@ -36,6 +37,8 @@ const Reviews = () => {
                     } w-[50px] md:w-[83px] h-[50px] md:h-[83px]`}
                     src={img}
                     alt=""
+                    width={83}
+                    height={83}
                   />
                 </div>
               )}

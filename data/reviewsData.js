@@ -1,6 +1,6 @@
-import nobu from "../assets/images/about/nobu.png";
-import dodgers from "../assets/images/about/dodgers.png";
-import richard from "../assets/images/about/richard.png";
+// import nobu from "../assets/images/about/nobu.png";
+// import dodgers from "../assets/images/about/dodgers.png";
+// import richard from "../assets/images/about/richard.png";
 
 const reviewsData = [
   {
@@ -11,19 +11,19 @@ const reviewsData = [
   },
   {
     id: 1,
-    img: nobu,
+    img: '/assets/images/about/nobu.png',
     details:
       "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
   },
   {
     id: 2,
-    img: dodgers,
+    img: '/assets/images/about/dodgers.png',
     details:
       "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
   },
   {
     id: 3,
-    img: richard,
+    img: '/assets/images/about/richard.png',
     details:
       "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.",
   },

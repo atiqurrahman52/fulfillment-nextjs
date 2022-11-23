@@ -18,8 +18,7 @@ const OurServices = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-9">
           {ourServices.map((service) => {
             return (
-              <div>
-                {" "}
+             
                 <div key={service.id} className="mb-[29px] md:mb-6">
                   <div className="flex gap-3 items-center lg:items-start">
                     <p className="h-2.5 md:h-5 w-2.5 md:w-5 bg-[#3B2D60] rounded-full"></p>
@@ -33,7 +32,7 @@ const OurServices = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+             
             );
           })}
         </div>
