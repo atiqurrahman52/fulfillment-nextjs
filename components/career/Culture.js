@@ -1,0 +1,49 @@
+import React from 'react';
+import {culturedata} from '../../data/cultureData'
+
+
+const Culture = () => {
+    return (
+        <div class="container">
+          <div class="py-10 md:py-16 gap-10 md:gap-2.5">
+            <div
+              class="flex flex-col justify-center items-center gap-y-2 md:gap-y-5 mb-10 md:mb-[60px]"
+            >
+              <h3n
+                class="font-poppins font-bold text-2xl md:text-[40px] text-[#304563]"
+                >Our Culture</h3n
+              >
+              <p
+                class="text-[#808C9D] font-poppins text-sm md:text-base tracking-[0.04em] text-center"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet id
+                viverra viverra morbi <br />
+                facilisis lacus, sed orci. Aliquet varius enim orci, turpis sed.
+              </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12">
+           {
+            culturedata.map((data) =>{
+                return <div class="col-span-1 md:col-span-6 mb-6 md:mb-14 mr-0 md:mr-2">
+                <h3
+                  class="font-poppins font-semibold text-base md:text-xl text-[#394F6D] mb-2 md:mb-5"
+                >
+                 {data.title}
+                </h3>
+                <p
+                  class="text-[#808C9D] font-poppins text-sm md:text-base tracking-[0.04em]"
+                >
+                 {data.desc}
+                </p>
+              </div>
+            })
+           }
+              
+            </div>
+          </div>
+        </div>
+    );
+};
+
+export default Culture;
