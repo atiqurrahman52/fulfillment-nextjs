@@ -9,7 +9,7 @@ const FaqDetails = () => {
     <div className="container">
       <div className="grid grid-cols-12 gap-4 md:gap-6 pt-10">
         {data.map((item) => (
-          <div className="col-span-12">
+          <div key={item.id} className="col-span-12">
             <div class="grid grid-cols-12">
               <div className="col-span-12 lg:col-span-2">
                 <p className="font-poppins font-semibold text-[20px] leading-[30px] mb-3 lg:mb-0 tracking-[.04em] text-success">

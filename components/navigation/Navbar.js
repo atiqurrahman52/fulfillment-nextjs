@@ -14,7 +14,7 @@ export default function NavBar() {
   return (
     <nav
       className="w-full shadow-[-4px_4px_18px_rgba(34,82,155,0.1)] bg-white
-      md:pb-5 md:pt-6 sticky top-0 left-0 z-50 transition-all duration-500 "
+      md:pb-5 md:pt-6 sticky top-0 left-0 z-50  transition-all duration-500 "
     >
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>

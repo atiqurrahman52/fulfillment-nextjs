@@ -1,4 +1,4 @@
-import viewJob from '../assets/images/career/location.svg'
+// import viewJob from '../assets/images/career/location.svg'
 
 const jobs =[
     {
@@ -6,7 +6,7 @@ const jobs =[
         date:'Jan 02, 2022',
         title:'Project Manager',
         viewJob:'View job details',
-        image:viewJob,
+        image:'/assets/images/career/location.svg',
         address:'Dhaka',
         apply:'Apply Now'
     },
@@ -15,7 +15,7 @@ const jobs =[
         date:'Jan 02, 2022',
         title:'Product Manager',
         viewJob:'View job details',
-        image:viewJob,
+        image:'/assets/images/career/location.svg',
         address:'NewYork',
         apply:'Apply Now'
     },
@@ -24,7 +24,7 @@ const jobs =[
         date:'Jan 02, 2022',
         title:'Graphics Designer',
         viewJob:'View job details',
-        image:viewJob,
+        image:'/assets/images/career/location.svg',
         address:'New Delhi',
         apply:'Apply Now'
     },
@@ -33,7 +33,7 @@ const jobs =[
         date:'Jan 02, 2022',
         title:'Frontend Developer',
         viewJob:'View job details',
-        image:viewJob,
+        image:'/assets/images/career/location.svg',
         address:'Berlin',
         apply:'Apply Now'
     },
@@ -42,7 +42,7 @@ const jobs =[
         date:'Jan 02, 2022',
         title:'React Developer',
         viewJob:'View job details',
-        image:viewJob,
+        image:'/assets/images/career/location.svg',
         address:'Sydney',
         apply:'Apply Now'
     },
@@ -51,7 +51,7 @@ const jobs =[
         date:'Jan 02, 2022',
         title:'Full Stack Developer',
         viewJob:'View job details',
-        image:viewJob,
+        image:'/assets/images/career/location.svg',
         address:'Melbourne',
         apply:'Apply Now'
     },

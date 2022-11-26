@@ -84,3 +84,8 @@ nav div li a.active::after {
   width: 48px;
 }
 
+
+/* viewjob button  */
+.bg-color{
+  background: linear-gradient(90deg, #182A44 0%, #3C5271 100%);
+}

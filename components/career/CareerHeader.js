@@ -1,5 +1,6 @@
-import React from "react";
-import family from "../../assets/images/career/family.png";
+import Image from "next/image";
+// import React from "react";
+// import family from "../../assets/images/career/family.png";
 const CareerHeader = () => {
   return (
     <div className="container">
@@ -20,10 +21,12 @@ const CareerHeader = () => {
           </p>
         </div>
         <div>
-          <img
+          <Image
             className="w-[288px] md:w-[757px] h-[203px] md:h-[534px] mx-auto md:mx-0"
-            src={family}
+            src="/assets/images/career/family.png"
             alt=""
+            width={410}
+            height={300}
           />
         </div>
       </div>

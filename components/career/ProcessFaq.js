@@ -8,15 +8,15 @@ const ProcessFaq = () => {
 
   return (
     <div class="container">
-      <div class="py-1 md:py-1">
+      <div class="py-9 md:py-10">
 
         <div class="flex flex-col justify-center items-center mb-10">
           <h3 class="text-primary font-poppins font-bold text-2xl md:text-[40px] text-center md:leading-[60px] mb-[15px] md:mb-2.5">
             Application Process FAQ
           </h3>
-          <p class="text-[#7E8A9B] font-poppins text-sm text-center md:text-base">
+          <p class="text-[#7E8A9B] font-poppins text-sm max-w-[713px] text-center md:text-base">
             Anything else you want to know about our application process? This
-            list of frequently <br />
+            list of frequently 
             asked questions is a good place to start.
           </p>
         </div>

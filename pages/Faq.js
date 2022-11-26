@@ -1,11 +1,12 @@
 import FaqBanner from "../components/faq/FaqBanner";
 import FaqDetails from "../components/faq/FaqDetails";
+import BasicLayout from "../layouts/BasicLayout";
 const Faq = () => {
   return (
-    <div>
-      <FaqBanner />
+    <BasicLayout>
+       <FaqBanner />
       <FaqDetails />
-    </div>
+    </BasicLayout>
   );
 };
 
