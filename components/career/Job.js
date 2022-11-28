@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { jobs } from "../../data/jobData";
-
+import f from "../../public/assets/images/career/chevron.svg";
 const Job = () => {
   const options = [
     {
@@ -35,7 +35,7 @@ const Job = () => {
         <div class="grid md:grid-cols-10 md:gap-4 max-w-5xl mx-auto">
           <div className="md:col-span-5 lg:col-span-6">
             <div className="grid md:grid-cols-6 gap-4">
-              <select
+              {/* <select
                 value="dhaka"
                 class="md:col-span-2 text-[#A5ADB9] bg-[#F7F7F7] rounded-[10px] px-4 py-3"
               >
@@ -48,9 +48,32 @@ const Job = () => {
                     {option.label}
                   </option>
                 ))}
-              </select>
+              </select> */}
+
+              <div class="relative md:col-span-2">
+                {/* <select class="w-full bg-transparent text-tertiary-300 placeholder-tertiary-300 border focus:border-tertiary-50 rounded px-3 py-2.5 2xl:p-4 text-xs xl:text-base outline-0 transition-all duration-300"> */}
+                <select class="w-full  bg-[#F7F7F7] text-[#A8B1BC]  rounded-[10px] px-9 py-2.5 2xl:p-4 text-xs xl:text-base outline-0 transition-all duration-300">
+                  <option value="">Locations</option>
+                  <option value="0">New york</option>
+                  <option value="1">3:00 PM</option>
+                  <option value="2">4:00 PM</option>
+                  <option value="3">5:00 PM</option>
+                  <option value="4">6:00 PM</option>
+                  <option value="5">7:00 PM</option>
+                  <option value="6">8:00 PM</option>
+                  <option value="7">9:00 PM</option>
+                </select>
+                <Image
+                  src="/assets/images/career/chevron.svg"
+                  alt="icon"
+                  class="absolute top-1/2 right-3 -translate-y-1/2 pointer-events-none w-5 h-5"
+                  width={20}
+                  height={20}
+                />
+              </div>
+
               <input
-                class="md:col-span-4 bg-[#F7F7F7] font-medium rounded-[10px] px-4 py-3"
+                class="md:col-span-4 bg-[#F7F7F7] font-medium rounded-[10px] px-4 py-3 outline-0"
                 type="text"
                 placeholder="Work type"
               />
@@ -73,13 +96,12 @@ const Job = () => {
         </div>
       </div>
       {/* First job started  */}
-      <div className="p-10">
+      <div className="p-10 shadow-[-4px_4px_18px_rgba(34,82,155,0.1)] mt-16">
         <h2 className="font-poppins font-semibold text-lg md:text-2xl text-primary mb-6">
-              Head of Marketing
-            </h2>
-        <div className="grid xl:grid-cols-12 gap-5">
-          
-          <div className="col-span-10 md:col-span-7 xl:col-span-7  max-w-[665px]">
+          Head of Marketing
+        </h2>
+        <div className="grid xl:grid-cols-12 xs:gap-y-5 md:gap-9 xl:gap-[100px]">
+          <div className="col-span-12 md:col-span-6 xl:col-span-7">
             <p className="text-[#7E8A9B] font-poppins text-base text-justify ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet
               enim eu, eget vitae lacus. Lacinia eros rutrum ut nam integer
@@ -98,14 +120,14 @@ const Job = () => {
               fermentum elit pellentesque. Facilisi enim quam rhoncus dolor ac
               mauris ultricies sit.
             </p>
-           
-            <div className="lg:mx-0 flex justify-center items-center">
-              <button class="bg-success text-sm xl:text-base text-white py-1.5 xl:py-2.5 w-[110px] xl:w-[168px] rounded  mt-12">
+
+            <div className="lg:mx-0 flex justify-center items-center xl:block hidden">
+              <button class="bg-success text-sm xl:text-base text-white py-1.5 xl:py-2.5 w-[110px] xl:w-[168px] rounded mt-12">
                 Apply Now
               </button>
             </div>
           </div>
-          <div className="col-span-10 md:col-span-6 xl:col-span-5">
+          <div className="col-span-12 md:col-span-6 xl:col-span-5">
             <div class="flex items-center gap-2 mb-6">
               <p class="h-1 w-1 bg-[#758090] rounded-full"></p>
               <p class="text-[#7E8A9B] font-poppins text-sm md:text-base">
@@ -136,6 +158,11 @@ const Job = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
+          </div>
+          <div className="lg:mx-0  flex justify-center items-center text-center xl:hidden block">
+            <button class="bg-success text-sm xl:text-base text-white py-1.5 xl:py-2.5 w-[110px] xl:w-[168px] rounded  mt-2">
+              Apply Now
+            </button>
           </div>
         </div>
       </div>
@@ -159,7 +186,7 @@ const Job = () => {
                     height={30}
                     alt=""
                   />
-                  <p class="text-[#8490A2] font-medium text-sm xl:text-lg">
+                  <p class="text-[#1F324C] font-workSans font-medium text-sm xl:text-lg">
                     {address}
                   </p>
                 </div>
@@ -169,13 +196,13 @@ const Job = () => {
               </h3>
               <div className="flex justify-between items-center">
                 <Link
-                  class="text-success font-medium text-xs xl:text-sm underline"
+                  class="text-success font-poppins font-medium text-xs xl:text-sm underline"
                   href="#"
                 >
                   {viewJob}
                 </Link>
 
-                <button class="bg-success text-sm xl:text-base text-white py-1.5 xl:py-2.5 w-[110px] xl:w-[168px] rounded text-center">
+                <button class="bg-success font-poppins text-sm xl:text-base text-white py-1.5 xl:py-2.5 w-[110px] xl:w-[168px] rounded text-center">
                   {apply}
                 </button>
               </div>
