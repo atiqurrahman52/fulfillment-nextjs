@@ -19,7 +19,7 @@ const Reviews = () => {
                 </div>
               ) : (
                 <div
-                  className={`relative bg-white border border-red-600 text-[#7F8B9C] font-poppins text-sm rounded-lg lg:rounded-[10px] px-5 md:px-10 py-3 md:py-14 shadow-[0px_4px_28px_0px_rgba(0,0,0,0.1)] md:max-w-[550px] lg:max-w-[400px] xl:max-w-[460px] ${
+                  className={`relative bg-white text-[#7F8B9C] font-poppins text-sm rounded-lg lg:rounded-[10px] px-5 md:px-10 py-3 md:py-14 shadow-[0px_4px_28px_0px_rgba(0,0,0,0.1)] md:max-w-[550px] lg:max-w-[400px] xl:max-w-[460px] ${
                     id === 2 ? "mr-16" : "ml-2"
                   } ${
                     (id === 2 && "w-full md:w-max md:ml-auto") ||
@@ -33,7 +33,7 @@ const Reviews = () => {
                     className={`absolute -top-5 md:-top-8 ${
                       id === 1 || id === 3
                         ? "-left-5 md:-left-8"
-                        : "-right-5 lg:-left-8"
+                        : "-right-4 lg:-left-8"
                     } w-[50px] md:w-[83px] h-[50px] md:h-[83px]`}
                     src={img}
                     alt=""
