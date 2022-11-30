@@ -19,8 +19,8 @@ const Reviews = () => {
                 </div>
               ) : (
                 <div
-                  className={`relative bg-white text-[#7F8B9C] font-poppins text-sm rounded-lg lg:rounded-[10px] px-5 md:px-10 py-3 md:py-14 shadow-[0px_4px_28px_0px_rgba(0,0,0,0.1)] md:max-w-[550px] lg:max-w-[400px] xl:max-w-[460px] ${
-                    id === 2 ? "mr-16" : "ml-8"
+                  className={`relative bg-white border border-red-600 text-[#7F8B9C] font-poppins text-sm rounded-lg lg:rounded-[10px] px-5 md:px-10 py-3 md:py-14 shadow-[0px_4px_28px_0px_rgba(0,0,0,0.1)] md:max-w-[550px] lg:max-w-[400px] xl:max-w-[460px] ${
+                    id === 2 ? "mr-16" : "ml-2"
                   } ${
                     (id === 2 && "w-full md:w-max md:ml-auto") ||
                     (id === 3 && "w-full lg:w-max lg:ml-auto lg:mt-16")

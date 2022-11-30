@@ -10,7 +10,6 @@ const Footer = () => {
     <div className="container">
       <div className="grid grid-cols-1  md:grid-cols-2 xl:grid-cols-4 py-5 md:py-10 gap-6 border-b-[1px] border-gray">
         <div className="space-y-6">
-         
           <Image
             className="w-max mx-auto lg:mx-0"
             src="/assets/images/logo/logo.png"
@@ -25,7 +24,6 @@ const Footer = () => {
           <div className="flex justify-center items-center gap-[22px] w-max lg:mx-0 mx-auto">
             {socialIconsSvg.map((item, i) => {
               return (
-              
                 <Link key={i} href={item.path} target="_blank" className="">
                   <p
                     dangerouslySetInnerHTML={{ __html: item.icon }}

@@ -75,7 +75,7 @@ const Legal = () => {
               })}
             </div>
 
-            <div className="mt-20 xl:mx-20 col-span-1 md:col-span-9 px-4 py-5 lg:py-12  shadow-[-4px_4px_18px_rgba(34,82,155,0.1)] flex items-center justify-between max-w-[804px]  rounded-[15px] flex-col lg:flex-row gap-5">
+            <div className="md:block hidden mt-20 xl:mx-20 col-span-1 md:col-span-9 px-4 py-5 lg:py-12  shadow-[-4px_4px_18px_rgba(34,82,155,0.1)] flex items-center justify-between max-w-[804px]  rounded-[15px] flex-col lg:flex-row gap-5">
               
               <p class="font-semibold text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#182A44] to-[#3C5271]">
                 Was this article helpful?

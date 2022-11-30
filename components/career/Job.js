@@ -1,30 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { jobs } from "../../data/jobData";
-import f from "../../public/assets/images/career/chevron.svg";
+// import f from "../../public/assets/images/career/chevron.svg";
 const Job = () => {
-  const options = [
-    {
-      label: "Dhaka",
-      value: "dhaka",
-    },
-    {
-      label: "New York",
-      value: "newyork",
-    },
-    {
-      label: "Sydney",
-      value: "sydney",
-    },
-    {
-      label: "Berlin",
-      value: "berlin ",
-    },
-    {
-      label: "Dublin",
-      value: "dublin",
-    },
-  ];
   return (
     <div className="container">
       {/* job position started  */}
@@ -34,39 +12,24 @@ const Job = () => {
         </h1>
         <div class="grid md:grid-cols-10 md:gap-4 max-w-5xl mx-auto">
           <div className="md:col-span-5 lg:col-span-6">
-            <div className="grid md:grid-cols-6 gap-4">
-              {/* <select
-                value="dhaka"
-                class="md:col-span-2 text-[#A5ADB9] bg-[#F7F7F7] rounded-[10px] px-4 py-3"
-              >
-                {options.map((option, i) => (
-                  <option
-                    key={i}
-                    value={option.value}
-                    class="text-[#A5ADB9] font-poppins font-medium text-sm md:text-base"
-                  >
-                    {option.label}
-                  </option>
-                ))}
-              </select> */}
-
-              <div class="relative md:col-span-2">
+            <div className="grid md:grid-cols-7 gap-4">
+              <div class="relative md:col-span-3">
                 {/* <select class="w-full bg-transparent text-tertiary-300 placeholder-tertiary-300 border focus:border-tertiary-50 rounded px-3 py-2.5 2xl:p-4 text-xs xl:text-base outline-0 transition-all duration-300"> */}
                 <select class="w-full  bg-[#F7F7F7] text-[#A8B1BC]  rounded-[10px] px-9 py-2.5 2xl:p-4 text-xs xl:text-base outline-0 transition-all duration-300">
                   <option value="">Locations</option>
                   <option value="0">New york</option>
-                  <option value="1">3:00 PM</option>
-                  <option value="2">4:00 PM</option>
-                  <option value="3">5:00 PM</option>
-                  <option value="4">6:00 PM</option>
-                  <option value="5">7:00 PM</option>
-                  <option value="6">8:00 PM</option>
-                  <option value="7">9:00 PM</option>
+                  <option value="1">Dhaka</option>
+                  <option value="2">Berlin</option>
+                  <option value="3">New Delhi</option>
+                  <option value="4">Stockholm</option>
+                  <option value="5">Moscow</option>
+                  <option value="6">Dublin</option>
+                  <option value="7">London</option>
                 </select>
                 <Image
                   src="/assets/images/career/chevron.svg"
                   alt="icon"
-                  class="absolute top-1/2 right-3 -translate-y-1/2 pointer-events-none w-5 h-5"
+                  class="absolute top-1/2  right-3 -translate-y-1/2 pointer-events-none w-2.5 h-2.5 md:w-3 md:h-3 xl:w-4 xl:h-4"
                   width={20}
                   height={20}
                 />
@@ -96,7 +59,7 @@ const Job = () => {
         </div>
       </div>
       {/* First job started  */}
-      <div className="p-10 shadow-[-4px_4px_18px_rgba(34,82,155,0.1)] mt-16">
+      <div className=" p-3 md:p-10 shadow-[-4px_4px_18px_rgba(34,82,155,0.1)] mt-16">
         <h2 className="font-poppins font-semibold text-lg md:text-2xl text-primary mb-6">
           Head of Marketing
         </h2>
