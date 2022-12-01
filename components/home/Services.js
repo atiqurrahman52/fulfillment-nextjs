@@ -8,17 +8,26 @@ import { servicesData } from "../../data/services";
 const plus = () => {
   return (
     <div className="">
-      <Image src="/assets/images/home/plus.svg" layout="fill" alt=""
-      width={44}
-      height={44}
-       />
+      <Image
+        src="/assets/images/home/plus.svg"
+        layout="fill"
+        alt=""
+        width={44}
+        height={44}
+      />
     </div>
   );
 };
 const minus = () => {
   return (
     <div className="">
-      <Image src="/assets/images/home/minus.svg" layout="fill" alt="" />
+      <Image
+        src="/assets/images/home/minus.svg"
+        layout="fill"
+        alt=""
+        width={100}
+        height={100}
+      />
     </div>
   );
 };

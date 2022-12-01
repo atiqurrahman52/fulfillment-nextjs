@@ -101,15 +101,13 @@ export default function NavBar() {
               </li> */}
 
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
-                <Link href="about">About Us</Link>
+                <Link href="/about">About Us</Link>
               </li>
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
-                <Link href="contact">Contact Us</Link>
+                <Link href="/contact">Contact Us</Link>
               </li>
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
-                <Link href="faq">
-                  <a>FAQ</a>
-                </Link>
+                <Link href="/faq">FAQ</Link>
               </li>
             </ul>
           </div>
