@@ -1,8 +1,8 @@
-import BasicLayout from "../layouts/BasicLayout";
+
 
 const Contact = () => {
   return (
-   <BasicLayout>
+  //  <BasicLayout>
      <div class="contact-bg bg-cover bg-no-repeat bg-center py-20 xl:py-24">
       <div class="container">
         <div class="flex justify-center">
@@ -283,7 +283,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
-   </BasicLayout>
+  //  </BasicLayout>
   );
 };
 

@@ -1,13 +1,12 @@
-import React from 'react';
-import Legal from '../components/legal/Legal';
-import BasicLayout from '../layouts/BasicLayout';
+import React from "react";
+import Legal from "../components/legal/Legal";
 
 const legal = () => {
-    return (
-        <BasicLayout>
-            <Legal></Legal>
-        </BasicLayout>
-    );
+  return (
+    <>
+      <Legal></Legal>
+    </>
+  );
 };
 
 export default legal;

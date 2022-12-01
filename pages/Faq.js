@@ -1,6 +1,8 @@
+import React from "react";
 import FaqBanner from "../components/faq/FaqBanner";
 import FaqDetails from "../components/faq/FaqDetails";
-const Faq = () => {
+
+const faq = () => {
   return (
     <>
       <FaqBanner />
@@ -9,4 +11,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default faq;
