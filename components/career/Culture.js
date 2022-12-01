@@ -4,7 +4,6 @@ import { culturedata } from "../../data/cultureData";
 const Culture = () => {
   return (
     <div class="container">
-      {/* <div class="py-10 md:py-16 gap-10 md:gap-2.5"> */}
       <div class="py-10 md:py-16">
         <div class="flex flex-col justify-center items-center gap-y-2 md:gap-y-5 mb-10">
           <h3 class="font-poppins font-bold text-2xl md:text-[40px] text-[#304563]">
@@ -12,7 +11,7 @@ const Culture = () => {
           </h3>
           <p class="text-[#808C9D] font-poppins text-sm md:text-base tracking-[0.04em] max-w-[738px] text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet id
-            viverra viverra morbi facilisis lacus, sed orci. Aliquet varius enim
+            viverra viverra morbi facilisis lacus, sqd orci. Aliquet varius enim
             orci, turpis sed.
           </p>
         </div>
