@@ -1,9 +1,8 @@
-
+import React from 'react';
 
 const Contact = () => {
-  return (
-  //  <BasicLayout>
-     <div class="contact-bg bg-cover bg-no-repeat bg-center py-20 xl:py-24">
+    return (
+        <div class="contact-bg bg-cover bg-no-repeat bg-center py-20 xl:py-24">
       <div class="container">
         <div class="flex justify-center">
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -283,8 +282,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
-  //  </BasicLayout>
-  );
+    );
 };
 
 export default Contact;

@@ -80,9 +80,16 @@ const Services = () => {
                   } xl:-top-5 xl:right-6`}
                 >
                   <Image
-                    src={active === id ? minus : plus}
+                    // src={active === id ? minus : plus}
+                    src={
+                      active === id
+                        ? "/assets/images/home/minus.svg"
+                        : "/assets/images/home/plus.svg"
+                    }
                     alt=""
                     className="h-7 xl:h-10 w-7 xl:w-10"
+                    width={40}
+                    height={40}
                   />
                 </div>
               </div>
