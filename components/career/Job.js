@@ -79,7 +79,7 @@ const Job = () => {
               mauris ultricies sit.
             </p>
 
-            <div className="lg:mx-0 flex justify-center items-center xl:block hidden">
+            <div className="lg:mx-0 justify-center items-center xl:flex hidden">
               <button class="bg-success text-sm xl:text-base text-white py-1.5 xl:py-2.5 w-[110px] xl:w-[168px] rounded mt-12">
                 Apply Now
               </button>
@@ -116,11 +116,11 @@ const Job = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
-          </div>
-          <div className="lg:mx-0  flex justify-center items-center text-center xl:hidden block">
-            <button class="bg-success text-sm xl:text-base text-white py-1.5 xl:py-2.5 w-[110px] xl:w-[168px] rounded  mt-2">
-              Apply Now
-            </button>
+            <div className="lg:mx-0  flex justify-center items-center text-center xl:hidden w-full">
+              <button class="bg-success text-sm xl:text-base text-white py-1.5 xl:py-2.5 w-[110px] xl:w-[168px] rounded  mt-2">
+                Apply Now
+              </button>
+            </div>
           </div>
         </div>
       </div>

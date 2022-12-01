@@ -4,7 +4,7 @@ import Culture from "../components/career/Culture";
 import Job from "../components/career/Job";
 import ProcessFaq from "../components/career/ProcessFaq";
 
-const Career = () => {
+const careers = () => {
   return (
     <div>
       <CareerHeader />
@@ -15,4 +15,4 @@ const Career = () => {
   );
 };
 
-export default Career;
+export default careers;

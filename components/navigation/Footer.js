@@ -93,7 +93,7 @@ const Footer = () => {
             Contact us
           </Link>
           <Link
-            href="/career"
+            href="/careers"
             className="font-mulish font-normal text-sm md:text-base leading-5  text-[#888B96] mb-3 md:mb-[18px]"
           >
             Careers
