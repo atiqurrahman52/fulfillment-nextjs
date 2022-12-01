@@ -3,10 +3,10 @@ import FaqDetails from "../components/faq/FaqDetails";
 import BasicLayout from "../layouts/BasicLayout";
 const Faq = () => {
   return (
-    <BasicLayout>
-       <FaqBanner />
+    <>
+      <FaqBanner />
       <FaqDetails />
-    </BasicLayout>
+    </>
   );
 };
 
