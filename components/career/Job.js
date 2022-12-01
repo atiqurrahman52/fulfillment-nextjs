@@ -14,17 +14,12 @@ const Job = () => {
           <div className="md:col-span-5 lg:col-span-6">
             <div className="grid md:grid-cols-7 gap-4">
               <div class="relative md:col-span-3">
-                {/* <select class="w-full bg-transparent text-tertiary-300 placeholder-tertiary-300 border focus:border-tertiary-50 rounded px-3 py-2.5 2xl:p-4 text-xs xl:text-base outline-0 transition-all duration-300"> */}
-                <select class="w-full  bg-[#F7F7F7] text-[#A8B1BC]  rounded-[10px] px-9 py-2.5 2xl:p-4 text-xs xl:text-base outline-0 transition-all duration-300">
+                <select class="w-full  bg-[#F7F7F7] text-[#A8B1BC]  rounded-[10px] px-4 py-3 2xl:p-4 text-xs xl:text-base outline-0 transition-all duration-300">
                   <option value="">Locations</option>
                   <option value="0">New york</option>
                   <option value="1">Dhaka</option>
                   <option value="2">Berlin</option>
                   <option value="3">New Delhi</option>
-                  <option value="4">Stockholm</option>
-                  <option value="5">Moscow</option>
-                  <option value="6">Dublin</option>
-                  <option value="7">London</option>
                 </select>
                 <Image
                   src="/assets/images/career/chevron.svg"
@@ -36,7 +31,7 @@ const Job = () => {
               </div>
 
               <input
-                class="md:col-span-4 bg-[#F7F7F7] font-medium rounded-[10px] px-4 py-3 outline-0"
+                class="md:col-span-4 bg-[#F7F7F7] font-medium rounded-[10px] px-4 py-3 outline-0 text-xs xl:text-base"
                 type="text"
                 placeholder="Work type"
               />
@@ -45,13 +40,13 @@ const Job = () => {
 
           <div class="md:col-span-5 lg:col-span-4 mt-10 md:mt-0">
             <div className="md:flex items-center gap-4 space-y-1">
-              <p class="text-sm xl:text-base w-full bg-success py-3 rounded-[10px] max-w-[200px] mx-auto font-poppins font-medium uppercase text-white text-center">
+              <p class="text-sm xl:text-base w-full bg-success py-3 rounded-[10px] max-w-[200px] mx-auto font-poppins font-medium uppercase text-white text-center cursor-pointer">
                 Search
               </p>
               <p class="text-sm xl:text-base text-[#BEBEBE] font-poppins font-medium uppercase text-center">
                 OR
               </p>
-              <p class="text-sm xl:text-base w-full bg-[#3B2D60] py-3 rounded-[10px] max-w-[200px] mx-auto font-poppins font-medium uppercase text-white text-center ">
+              <p class="text-sm xl:text-base w-full bg-[#3B2D60] py-3 rounded-[10px] max-w-[200px] mx-auto font-poppins font-medium uppercase text-white text-center cursor-pointer ">
                 View all jobs
               </p>
             </div>

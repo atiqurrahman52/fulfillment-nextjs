@@ -1,7 +1,6 @@
 import { ArrowDown, CaretDown } from "phosphor-react";
 import { useState } from "react";
 import { applicationFaqData } from "../../data/applicationFaqData";
-// import { tourItineraryData } from "../../data/tourItinerary/tourItineraryData";
 
 const ProcessFaq = () => {
   const [accordionActive, setAccordionActive] = useState(0);
@@ -184,13 +183,6 @@ const ProcessFaq = () => {
                     placeholder="Enter massage"
                     className="font-medium outline-none w-full"
                   />
-                  {/* <textarea rows="5" cols=""
-                   placeholder="Enter massage"
-                   className="font-medium outline-none"
-                  >
-
-                  </textarea> */}
-                  {/* <img src="../../assets/images/svgimg/user.svg" alt=""  /> */}
 
                   <svg
                     width="20"

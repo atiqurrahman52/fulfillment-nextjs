@@ -24,18 +24,16 @@ export default function NavBar() {
                 className="w-[120px] md:w-[175px]"
                 src="/assets/images/logo/logo.png"
                 alt="logo"
-              
                 width={175}
                 height={38}
               />
             </Link>
-           
+
             <div className="md:hidden">
               <button className="p-2 " onClick={() => setNavbar(!navbar)}>
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    // className="w-6 h-6 text-[#D00338E5]/90"
                     className="w-6 h-6 text-[#1F425D]"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -48,7 +46,6 @@ export default function NavBar() {
                   </svg>
                 ) : (
                   <svg
-                    // className="text-[#D00338E5]/90"
                     className="text-[#1F425D]"
                     width="25"
                     height="26"
@@ -99,15 +96,15 @@ export default function NavBar() {
               <li className=" font-poppins font-medium text-tertiary text-sm md:text-base">
                 <Link href="/">Home</Link>
               </li>
-              <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
+              {/* <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
                 <Link href="#">Services</Link>
-              </li>
+              </li> */}
 
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
                 <Link href="about">About Us</Link>
               </li>
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
-                <Link href="contact">Contact us</Link>
+                <Link href="contact">Contact Us</Link>
               </li>
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
                 <Link href="faq">FAQ</Link>
