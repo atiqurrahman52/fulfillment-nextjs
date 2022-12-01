@@ -107,7 +107,7 @@ export default function NavBar() {
                 <Link href="contact">Contact Us</Link>
               </li>
               <li className="font-poppins font-medium text-tertiary text-sm md:text-base">
-                <Link href="faq">FAQ</Link>
+                <Link href="/faq">FAQ</Link>
               </li>
             </ul>
           </div>
